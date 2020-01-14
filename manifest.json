@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Outros Automatizador",
+    "description": "DATAX Classificacao Automatizador",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
