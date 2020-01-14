@@ -15,8 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
           nativeInputValueSetter.call(element, 'Ou');
           const ev3 = new Event('focus',{bubbles:true})
           const ev2 = new Event('input', { bubbles: true});
-         
-          
           const mouseClickEvents = ['mousedown', 'click', 'mouseup'];
           function simulateMouseClick(element=d.querySelector('#formg > div > div > div > div > div > div > ul > li')){
             mouseClickEvents.forEach(mouseEventType =>
@@ -42,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
               await  delay(200)
               simulateMouseClick(btn);
           }
-          alert('Outros Finished!!')
          
         }
         execOutros(${parseInt(inputIterationBtn.value) },${parseInt(inputIterationMSBtn.value)})

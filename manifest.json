@@ -4,7 +4,10 @@
     "name": "Outros Automatizador",
     "description": "DATAX Classificacao Automatizador",
     "version": "1.0",
-  
+    "content_scripts": [{
+        "js": ["addbtnManual.js"],
+        "matches": ["http://developer.smartsuite.local:4081/*"]
+      }],
     "browser_action": {
      "default_popup": "popup.html"
     },
