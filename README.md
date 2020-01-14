@@ -1,0 +1,1 @@
+# chromeext-classificador-smart
